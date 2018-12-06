@@ -20,7 +20,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+	```ruby
+		# We will use the '.copyright' class method to showcase how to call it.
+		# It takes 2 arguments: (name, msg)
+
+		MradiViewTool::Renderer.copyright('Mradi Kenya', 'All rights reserved.')
+	```
 
 ## Development
 
